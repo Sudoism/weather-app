@@ -4,7 +4,9 @@
   "description": "Search for location and get weather indication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "build": "export NODE_ENV=production && webpack"
   },
   "repository": {
     "type": "git",
